@@ -8,6 +8,7 @@ def hello():
   return {"secret": "not very secret"}
 
 if __name__ == '__main__':
-  print("am i read?")
   port = int(os.environ.get('PORT', 5000))
-  app.run(debug = True, host = port)
+  print(f'Running on port {port} {type(port)}')
+  app.run(host = '0.0.0.0', port = port)
+
