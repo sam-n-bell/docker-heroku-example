@@ -8,5 +8,6 @@ def hello():
   return {"secret": "not very secret"}
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(debug = True, host = port)
+  print("am i read?")
+  port = int(os.environ.get('PORT', 5000))
+  app.run(debug = True, host = port)
