@@ -20,3 +20,6 @@
 4. git commit things
 5. heroku stach:set container <--- tells heroku your app is ran within a container
 6. git push (to heroku!)
+
+# urls 
+1. https://dev.to/erenaspire7/deploying-a-dockerized-flask-app-to-heroku-5h7j
