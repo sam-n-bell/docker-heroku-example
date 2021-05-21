@@ -1,4 +1,4 @@
-# How to venv
+# How to venv on windows fo sho
 1. python -m virtualenv virtual
 2. cd into virtual
 3. .\virtual\Scripts\activate
