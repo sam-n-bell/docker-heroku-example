@@ -13,13 +13,16 @@
 3. profit
 
 # Heroku things
-1. heroku login
-2. git init
-2. heroku create <app-name>
-3. git add .
-4. git commit things
-5. heroku stach:set container <--- tells heroku your app is ran within a container
-6. git push (to heroku!)
+1. in terminal: heroku login
+2. in terminal w/ heroku, run: git init
+2. in terminal w/ heroku, run: heroku create <app-name>
+3. in terminal w/ heroku, run: git add .
+4. in terminal w/ heroku, run: git commit things
+5. in terminal w/ heroku, run: heroku stach:set container <--- tells heroku your app is ran within a container
+6. in terminal w/ heroku, run: git push (to heroku!)
+7. in terminal w/ heroku, run: heroku ps:scale web=1
 
 # notes 
 1. https://dev.to/erenaspire7/deploying-a-dockerized-flask-app-to-heroku-5h7j
+
+# heroku cli
